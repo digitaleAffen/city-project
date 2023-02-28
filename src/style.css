@@ -1,7 +1,75 @@
-body {
-  font-family: "Poppins", sans-serif;
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
 }
 
-h1 {
-  color: aqua;
+body {
+  font-family: "Poppins", sans-serif;
+  background: #272044;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url("../images/background-bogota.jpg");
+  background-size: cover;
+  color: white;
+  width: 100%;
+  padding: 200px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  margin: 30px 0;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+header a {
+  background: white;
+  color: #272044;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5px;
+  letter-spacing: 3px;
+  margin-top: 32px;
+  padding: 20px 32px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+
+  heading h1 {
+    font-size: 48px;
+  }
+
+  heading h2 {
+    font-size: 20px;
+  }
+
+  heading h3 {
+    font-size: 12px;
+  }
 }
