@@ -126,7 +126,6 @@ main p {
 .grid {
   display: grid;
   grid-gap: 64px;
-  padding: 100px;
 }
 
 .grid-2-columns {
@@ -135,6 +134,7 @@ main p {
 
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 30px;
 }
 
 .facts {
