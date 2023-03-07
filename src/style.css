@@ -13,6 +13,12 @@ body {
   background: #272044;
 }
 
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
     url("../images/background-bogota.jpg");
@@ -157,12 +163,6 @@ main p {
   padding: 20px;
 }
 
-section {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 100px;
-}
-
 .secondary {
   background: #f8f8f8;
 }
@@ -233,16 +233,20 @@ footer li {
     padding: 60px 0;
   }
 
-  heading h1 {
-    font-size: 48px;
+  header h1 {
+    font-size: 58px;
   }
 
-  heading h2 {
+  header h2 {
     font-size: 20px;
   }
 
-  heading h3 {
-    font-size: 12px;
+  header h3 {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 10px;
   }
 
   .grid-2-columns {
@@ -251,6 +255,10 @@ footer li {
   }
 
   .grid-3-columns {
+    grid-template-columns: 1fr;
+  }
+
+  footer .grid {
     grid-template-columns: 1fr;
   }
 }
